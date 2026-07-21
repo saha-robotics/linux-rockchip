@@ -1348,3 +1348,23 @@
 		/* GPIO4_D4-D7 */
 		"", "", "", "";
 };
+
+&fiq_debugger {
+	status = "okay";
+	rockchip,serial-id = <0xffffffff>;
+};
+
+&uart2 {
+	status = "okay";
+	pinctrl-0 = <&uart2m2_xfer>;
+};
+
+&uart3 {
+	status = "okay";
+	pinctrl-0 = <&uart3m1_xfer>;
+};
+
+&uart4 {
+	status = "okay";
+	pinctrl-0 = <&uart4m2_xfer>;
+};

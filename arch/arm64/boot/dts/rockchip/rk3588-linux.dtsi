@@ -48,7 +48,7 @@
 		rockchip,baudrate = <1500000>;  /* Only 115200 and 1500000 */
 		interrupts = <GIC_SPI 423 IRQ_TYPE_LEVEL_LOW>;
 		pinctrl-names = "default";
-		pinctrl-0 = <&uart2m0_xfer>;
+		pinctrl-0 = <&uart7m2_xfer>;
 		status = "okay";
 	};
 
